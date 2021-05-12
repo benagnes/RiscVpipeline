@@ -1,0 +1,638 @@
+# Reading pref.tcl
+# OpenFile C:/Users/Ben/Documents/ExU_Pipeline/Simulation/ExU.mpf
+# Loading project ExU
+do FunctionalArithUnit.do
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(151): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:29:47 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Error: Yupper = 00000000000000FA
+# Tb_Yupper = 0000000000000000
+#    Time: 195 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: AltB = 0
+# Tb_AltB = 1
+#    Time: 195 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Ylower = 000000000000002A
+# Tb_Ylower = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 000000000000002A
+# Tb_Yupper = 0000000000000000
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: AltBu = 1
+# Tb_AltBu = 0
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 0000000000000001
+# Tb_Yupper = 000000000000000A
+#    Time: 525 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 406
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:32:31 on May 09,2021, Elapsed time: 0:02:44
+# Errors: 6, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(151): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:32:32 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: AltB = 0
+# Tb_AltB = 1
+#    Time: 195 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Ylower = 000000000000002A
+# Tb_Ylower = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 000000000000002A
+# Tb_Yupper = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: AltBu = 1
+# Tb_AltBu = 0
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 0000000000000001
+# Tb_Yupper = 000000000000000A
+#    Time: 525 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:40:06 on May 09,2021, Elapsed time: 0:07:34
+# Errors: 5, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(151): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:40:06 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: AltB = 0
+# Tb_AltB = 1
+#    Time: 195 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Ylower = 000000000000002A
+# Tb_Ylower = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 000000000000002A
+# Tb_Yupper = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: AltBu = 1
+# Tb_AltBu = 0
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 0000000000000001
+# Tb_Yupper = 000000000000000A
+#    Time: 525 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:45:32 on May 09,2021, Elapsed time: 0:05:26
+# Errors: 5, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(151): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:45:32 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: Ylower = 000000000000002A
+# Tb_Ylower = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 000000000000002A
+# Tb_Yupper = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:49:16 on May 09,2021, Elapsed time: 0:03:44
+# Errors: 2, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(155): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:49:17 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: Ylower = 000000000000002A
+# Tb_Ylower = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 000000000000002A
+# Tb_Yupper = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:50:42 on May 09,2021, Elapsed time: 0:01:25
+# Errors: 2, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(155): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:50:42 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: Ylower = 000000000000002A
+# Tb_Ylower = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = 000000000000002A
+# Tb_Yupper = 0000000000000028
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:57:04 on May 09,2021, Elapsed time: 0:06:22
+# Errors: 2, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(155): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:57:05 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: Ylower = FFFFFFFFFFFFFFFA
+# Tb_Ylower = 0000000000000008
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = FFFFFFFFFFFFFFFA
+# Tb_Yupper = 0000000000000008
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: AltB = 1
+# Tb_AltB = 0
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
+do FunctionalArithUnit.do
+# End time: 15:58:11 on May 09,2021, Elapsed time: 0:01:06
+# Errors: 3, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Adder
+# -- Compiling architecture rtl of Adder
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture rtl of Multiplier
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Divider
+# -- Compiling architecture rtl of Divider
+# ** Warning: ../SourceCode/Divider.vhd(40): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package ATTRIBUTES
+# -- Loading package std_logic_misc
+# -- Compiling entity ArithUnit
+# -- Compiling architecture rtl of ArithUnit
+# ** Warning: ../SourceCode/ArithUnit.vhd(155): (vcom-1514) Range choice direction (downto) does not determine aggregate index range direction (to).
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package ENV
+# -- Compiling entity Tb_ArithUnit
+# -- Compiling architecture behavioural of Tb_ArithUnit
+# vsim -gui work.Tb_ArithUnit -t 100ps 
+# Start time: 15:58:12 on May 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.tb_arithunit(behavioural)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading work.arithunit(rtl)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.adder(rtl)
+# Loading work.multiplier(rtl)
+# Loading work.divider(rtl)
+# ** Error: Ylower = FFFFFFFFFFFFFFFA
+# Tb_Ylower = 0000000000000008
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: Yupper = FFFFFFFFFFFFFFFA
+# Tb_Yupper = 0000000000000008
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Error: AltB = 1
+# Tb_AltB = 0
+#    Time: 245 ns  Iteration: 1  Instance: /tb_arithunit
+# ** Note: Simulation Completed
+#    Time: 545 ns  Iteration: 0  Instance: /tb_arithunit
+# Break in Process STIM at Tb_ArithUnit.vhd line 403
+# 0 ps
+# 572300 ps
